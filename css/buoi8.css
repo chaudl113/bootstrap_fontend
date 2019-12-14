@@ -18,6 +18,11 @@ h6 {
     font-family: 'Roboto', sans-serif;
 }
 
+div#myModal {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 a.btn.btn-primary {
     width: 50px;
     height: 50px;
@@ -413,4 +418,21 @@ footer .footer-below {
 
 .footer-above h3 {
     text-transform: uppercase;
+}
+
+
+
+.modal-full {
+    min-width: 100%;    
+}
+
+.modal-full .modal-content {
+    min-width: 100vh;
+}
+
+img.cangiua {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
 }
