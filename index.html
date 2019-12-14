@@ -13,30 +13,35 @@
 </head>
 
 <body>
-    <div class="bg-image"></div>
+    <div id="page-top" class="bg-image"></div>
     <div class="block1 wow fadeInDown">
         <header id="header">
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top text-uppercase">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top text-uppercase clearHeader">
                 <div class="container">
-                    <!--         <a class="navbar-brand" href="#"><samp class="h2">blu<samp class="text-primary">e</samp>asy</samp></a>-->
-                    <a class="my-move " href="#"></a>
+                    <a class="navbar-brand" href="#page-top"><samp class="h2">blu<samp
+                                class="text-primary">e</samp>asy</samp></a>
+
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarResponsive">
                         <ul class="navbar-nav ml-auto">
-                            <a class="nav-link text-light" href="#">Home</a>
+                            <li class="hidden">
+                                <a href="#page-top"></a>
+                            </li>
+                            <li>
+                                <a id="Home" class="nav-link text-light page-scroll" href="#page-top">Home</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="#Services">Services</a>
+                                <a class="nav-link text-light page-scroll" href="#services">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="#Portfolio">Portfolio</a>
+                                <a class="nav-link text-light page-scroll" href="#Portfolio">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="#Contact">Contact</a>
+                                <a class="nav-link text-light page-scroll" href="#Contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -61,8 +66,8 @@
     <div class="block2 text-light wow pulse animated ">
         <div class="container">
             <section>
-                <a href="" name="Services" class="text-decoration-none ">
-                    <div class=" font-weight-normal h2 text-uppercase">Services</div>
+                <a href="" name="" class="text-decoration-none ">
+                    <div id="services" class=" font-weight-normal h2 text-uppercase">Services</div>
                 </a>
 
                 <hr class="underlined4">
@@ -119,7 +124,7 @@
                     <div class="col-md-4 col-sm-6 col-6">
                         <a href="" name="Portfolio" class="text-decoration-none">
 
-                            <div class="title font-weight-normal h2 text-uppercase">Portfolio</div>
+                            <div id="Portfolio" class="title font-weight-normal h2 text-uppercase">Portfolio</div>
                             <hr class="underlined2">
 
                         </a>
@@ -167,58 +172,67 @@
 
                 </div>
                 <div class="row pt-5">
-                    <div class="col-lg-3 pt-4 ">
-                        <div class="bo"> <img class="card-img" src="./img/portfolio-photo.png" alt="">
-                            <div class="hover"></div>
-                            <div class="fa fa-plus"></div>
-                        </div>
+                    <div class="col-sm-4 portfolio-item mb-4">
+                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/1.jpg" class="img-fluid   " alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item mb-4">
+                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/2.jpg" class="img-fluid   " alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item mb-4">
+                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/3.jpg" class="img-fluid   " alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item mb-4">
+                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/4.jpg" class="img-fluid   " alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item mb-4">
+                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/5.jpg" class="img-fluid   " alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/6.jpg" class="img-fluid   " alt="">
+                        </a>
+                    </div>
 
-                    </div>
-                    <div class="col-lg-3 pt-4">
-                        <div class="bo"> <img class="card-img" src="./img/portfolio-photo.png" alt="">
-                            <div class="hover"></div>
-                            <div class="fa fa-plus"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 pt-4">
-                        <div class="bo"> <img class="card-img" src="./img/portfolio-photo.png" alt="">
-                            <div class="hover"></div>
-                            <div class="fa fa-plus"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 pt-4">
-                        <div class="bo"> <img class="card-img" src="./img/portfolio-photo.png" alt="">
-                            <div class="hover"></div>
-                            <div class="fa fa-plus"></div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="row pb-5">
-                    <div class="col-lg-3 pt-4">
-                        <div class="bo"> <img class=" card-img " src="./img/portfolio-photo.png" alt="">
-                            <div class="hover"></div>
-                            <div class="fa fa-plus"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 pt-4">
-                        <div class="bo"> <img class="card-img" src="./img/portfolio-photo.png" alt="">
-                            <div class="hover"></div>
-                            <div class="fa fa-plus"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 pt-4">
-                        <div class="bo"> <img class="card-img" src="./img/portfolio-photo.png" alt="">
-                            <div class="hover"></div>
-                            <div class="fa fa-plus"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 pt-4">
-                        <div class="bo"> <img class="card-img" src="./img/portfolio-photo.png" alt="">
-                            <div class="hover"></div>
-                            <div class="fa fa-plus"></div>
-                        </div>
-                    </div>
                 </div>
             </section>
 
@@ -246,11 +260,10 @@
                     </div>
                     <div class="col-md-6 wow slideInRight">
                         <div class="video-wrapper">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/A_aBHiKTqxo"
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ztrj8UIDMQY"
                                 frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                            </iframe>
+                                allowfullscreen></iframe>
                         </div>
 
                     </div>
@@ -264,7 +277,7 @@
         <div class="container">
             <section>
                 <div class=" d-flex justify-content-between align-items-center">
-                    <div class=" font-weight-normal h2 text-light text-uppercase">twitter
+                    <div id="Contact" class=" font-weight-normal h2 text-light text-uppercase">twitter
                         <hr class="underlined4">
                     </div>
 
@@ -350,7 +363,7 @@
                 <div class="row">
                     <div class="col-md-6 text-light text-uppercase">
                         <label for="exampleForm1">full name</label>
-                        <input type="text" id="exampleForm2" class="form-control mb-3">
+                        <input type="text" id="exampleForm1" class="form-control mb-3">
                         <label for="exampleForm1">email</label>
                         <input type="text" id="exampleForm2" class="form-control mb-3">
                     </div>
@@ -381,44 +394,86 @@
         </div>
     </div>
     <!-- /end block8-->
-    <footer class="footer">
-        <div class="container">
-
-            <div class="text-uppercase ">
-                <ul>
-                    <li class="d-inline menu"><a href="" class="text-decoration-none">home</a></li>
-                    <li class="d-inline menu "><a href="" class="text-decoration-none">services </a></li>
-                    <li class="d-inline menu"><a href="" class="text-decoration-none">portfolio </a></li>
-                    <li class="d-inline a ml-1"><a href="" class="text-decoration-none">contact</a></li>
-                    <div class=" d-inline float-right ">@2019</div>
-                </ul>
-
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p class="text-center">3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About Freelancer</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sit esse eveniet ipsum
+                            laudantium at asperiores ut sint cum necessitatibus neque repellendus sunt ipsa ex nemo,
+                            laborum expedita, fuga porro..</p>
+                    </div>
+                </div>
             </div>
-
-
-
-
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Long &copy; 2019
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
+
+
+
+
+    </div>
+    </footer>
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <script src="css/wow/wow.js"></script>
+    <script>
+        var wow = new WOW({
+            boxClass: 'wow', // animated element css class (default is wow)
+            animateClass: 'animated', // animation css class (default is animated)
+            offset: 0, // distance to the element when triggering the animation (default is 0)
+            mobile: true, // trigger animations on mobile devices (default is true)
+            live: true, // act on asynchronously loaded content (default is true)
+            callback: function (box) {
+                // the callback is fired every time an animation is started
+                // the argument that is passed in is the DOM node being animated
+            },
+            scrollContainer: null // optional scroll container selector, otherwise use window
+        });
+        wow.init();
+    </script>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/1.js"></script>
 </body>
-<script src="css/wow/wow.js"></script>
-<script>
-    var wow = new WOW({
-        boxClass: 'wow', // animated element css class (default is wow)
-        animateClass: 'animated', // animation css class (default is animated)
-        offset: 0, // distance to the element when triggering the animation (default is 0)
-        mobile: true, // trigger animations on mobile devices (default is true)
-        live: true, // act on asynchronously loaded content (default is true)
-        callback: function (box) {
-            // the callback is fired every time an animation is started
-            // the argument that is passed in is the DOM node being animated
-        },
-        scrollContainer: null // optional scroll container selector, otherwise use window
-    });
-    wow.init();
-</script>
-<script src="js/jquery-3.4.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
 
 </html>
