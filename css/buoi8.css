@@ -423,11 +423,21 @@ footer .footer-below {
 
 
 .modal-full {
-    min-width: 100%;    
+    min-width: 100%;
+
 }
 
-.modal-full .modal-content {
-    min-width: 100vh;
+.modal .fade .show {
+    padding: 0 !important;
+}
+
+
+/* .modal-full .modal-content {
+        min-width: 100vh;
+    } */
+
+.modal-dialog {
+    margin: 0 !important;
 }
 
 img.cangiua {
